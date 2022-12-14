@@ -1,0 +1,57 @@
+{
+  "name": "@cityofaustin/usfs-components",
+  "version": "0.0.19",
+  "description": "Custom components for USFS forms",
+  "main": "build/index.js",
+  "repository": "https://github.com/cityofaustin/usfs-components",
+  "author": "City of Austin",
+  "license": "MIT",
+  "peerDependencies": {},
+  "scripts": {
+    "build": "webpack",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook -o docs"
+  },
+  "dependencies": {
+    "@dump247/storybook-state": "^1.5.2",
+    "@mapbox/mapbox-gl-geocoder": "^3.1.0",
+    "classnames": "^2.2.6",
+    "date-fns": "^1.30.1",
+    "filepond": "^3.6.0",
+    "filepond-plugin-file-validate-size": "^2.1.1",
+    "filepond-plugin-image-exif-orientation": "^1.0.3",
+    "filepond-plugin-image-preview": "^3.1.4",
+    "react": "15",
+    "react-autosuggest": "^9.4.2",
+    "react-filepond": "^5.0.0",
+    "react-flatpickr": "^3.6.4",
+    "react-mapbox-gl": "3.9.2",
+    "react-query-params": "^1.0.9",
+    "us-forms-system": "https://github.com/cityofaustin/us-forms-system.git",
+    "uswds": "^1.6.9",
+    "webpack": "^4.27.1"
+  },
+  "devDependencies": {
+    "@storybook/addon-actions": "^4.1.2",
+    "@storybook/addon-knobs": "^4.1.2",
+    "@storybook/addon-links": "^4.1.2",
+    "@storybook/addons": "^4.1.2",
+    "@storybook/react": "^4.1.2",
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "7",
+    "babel-plugin-transform-object-rest-spread": "^6.26.0",
+    "babel-plugin-transform-react-jsx": "^6.24.1",
+    "babel-preset-env": "^1.7.0",
+    "css-loader": "^2.0.1",
+    "file-loader": "^3.0.1",
+    "mapbox-gl": "^0.52.0-beta.2",
+    "style-loader": "^0.23.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "prettier": {
+    "semi": true,
+    "singleQuote": true,
+    "trailingComma": "all"
+  }
+}
